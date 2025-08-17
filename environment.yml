@@ -1,0 +1,43 @@
+name: btc-auto-trader
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pip
+  - numpy
+  - pandas
+  - matplotlib
+  - scikit-learn
+  - tensorflow
+  - pytorch
+  - torchvision
+  - opencv
+  - ta-lib
+  - yfinance
+  - requests
+  - beautifulsoup4
+  - selenium
+  - lxml
+  - aiohttp
+  - websockets
+  - fastapi
+  - uvicorn
+  - sqlite
+  - nltk
+  - spacy
+  - transformers
+  - prophet
+  - xgboost
+  - scipy
+  - joblib
+  - feedparser
+  - textblob
+  - pip:
+      - langchain
+      - yfinance
+      - python-binance
+      - alive-progress
+      - python-dotenv
+      - pydantic 

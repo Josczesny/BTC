@@ -1,0 +1,31 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Estrutura de Pastas
+/src
+├── agents/               # Lógica dos agentes inteligentes
+├── data/                 # Coleta e armazenamento de dados brutos
+├── models/               # Modelos preditivos treinados
+├── strategy/             # Estratégias de entrada/saída
+├── executors/            # Execução de ordens via API
+├── monitor/              # Monitoramento e métricas
+├── utils/                # Funções auxiliares (logging, validação)
+└── main.py               # Ponto de entrada principal
+
+# Conda e Dependências
+- Ambiente base: `conda create -n btc-trader python=3.11`
+- Bibliotecas obrigatórias:
+  - pandas, numpy, matplotlib
+  - opencv-python, yolov5
+  - torch, tensorflow
+  - transformers, langchain
+  - requests, websocket-client
+  - sqlalchemy, sqlite/postgresql
+  - fastapi (opcional), uvicorn
+
+# Ferramentas Complementares
+- Selenium ou Playwright (se scraping dinâmico for necessário)
+- Docker + Conda (produção segura)
+

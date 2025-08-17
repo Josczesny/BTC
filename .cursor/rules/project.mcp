@@ -1,0 +1,21 @@
+{
+  "projectName": "btc1-auto-trader",
+  "description": "IA de trading automatizado de BTC com previsão de preço, visão computacional e leitura de notícias em tempo real. Foco em maximização de lucro.",
+  "language": "Python",
+  "entryPoint": "main.py",
+  "condaEnvironment": "btc-trader",
+  "modules": [
+    "agents/news_agent.py",
+    "agents/vision_agent.py",
+    "agents/prediction_agent.py",
+    "agents/decision_agent.py",
+    "agents/order_agent.py",
+    "data/data_collector.py",
+    "models/train_predictor.py",
+    "executors/exchange_api.py",
+    "monitor/performance_logger.py",
+    "utils/logger.py",
+    "main.py"
+  ],
+  "objective": "Maximizar o lucro de trades em BTC via IA multimodal (CV + NLP + modelos preditivos)"
+}

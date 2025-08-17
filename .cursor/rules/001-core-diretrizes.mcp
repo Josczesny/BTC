@@ -1,0 +1,48 @@
+---
+description: 
+globs: 
+alwaysApply: true
+---
+# Objetivo do Projeto
+Criar uma Inteligência Artificial autônoma para executar *trades automáticos de Bitcoin*, com base em:
+- Análise de notícias (NLP)
+- Previsão de preço (modelos preditivos)
+- Visão computacional de gráficos (CV)
+- Estratégias de gestão de ordens abertas
+
+O foco é **lucro máximo**, com decisões em tempo real.
+
+## Funcionalidades Esperadas
+- Coleta e interpretação de dados de mercado (gráficos, notícias, indicadores)
+- Abertura e fechamento de ordens baseadas em IA
+- Análise contínua de tempo de operação e ROI
+- Gestão inteligente de ordens abertas
+
+## Regras da IA
+- Visão computacional para candles, padrões e movimentos (OpenCV, YOLO)
+- Análise de sentimento de notícias em tempo real (RSS, Twitter, LangChain)
+- Previsão de preço via modelos como LSTM, ARIMA, XGBoost
+- Decisão baseada em pontuação ponderada e função de lucro
+- Critérios de fechamento baseados em tempo, % de lucro/prejuízo e previsão futura
+
+## Tecnologias Recomendadas
+- Ambiente: **Conda (Python 3.11+)**
+- IA: TensorFlow ou PyTorch
+- NLP: LangChain, transformers
+- CV: OpenCV, Matplotlib, YOLOv5
+- Dados: Pandas, NumPy, TA-Lib
+- APIs: Binance, CoinMarketCap
+- Banco: SQLite ou PostgreSQL
+- Backend opcional: FastAPI ou Flask
+
+## Restrições
+- Intervenção humana mínima
+- Código sem redundâncias
+- REUTILIZAR ARQUIVOS JA CRIADOS PARA RESOLUÇÃO DE PROBLEMAS NO MOMENTO
+- Registro de logs de toda decisão
+- Backtest obrigatório
+- Inicialmente operar apenas com **BTC**
+
+## Regra
+- SEMPRE VERIFIQUE SE JA EXISTE UMA FUNCAO OU PARTE DE CODIGO EXISTENTE OU SEMELHANTE À IMPLEMENTAÇÂO A SER REALIZADA
+- PESQUISE EM DOCUMENTAÇÕES OFICIAIS E FORUNS, IMPLEMENTE, TESTE, APLIQUE A CORREÇÃO DO ARQUIVO REAL, TESTE DE INTEGRAÇÃO E REPITA

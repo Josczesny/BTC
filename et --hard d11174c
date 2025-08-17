@@ -1,0 +1,5 @@
+[33md95ba80[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m csv
+[33md5c9acb[m Future Trades
+[33md2ac884[m Progresso e adição de trades futuros com abertura de ordens precisas.
+[33md11174c[m[33m ([m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m seleção de features, tuning LightGBM, logs de variância, balanceamento e busca de hiperparâmetros
+[33me36cea5[m fix: erros de Unicode, sistema de retreinamento automático, erro do ContinuousLearningSystem, validação de trades simulados, triggers de retreinamento, checagem de buffer antes de retreinamento, compilação do LSTM antes do fit, verbosidade dos logs durante testes
